@@ -1,0 +1,140 @@
+
+<html>
+<head>
+	<title> REGISTRATION FORM</title>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+div {
+ 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+
+  
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+<body>
+	<ul>
+  <li><a href="#home">Form</a></li>
+  <li><a href="#news">Contact us</a></li>
+</ul>
+<div class="container">
+  <div class="jumbotron">
+	
+	<h1> Please fill the details</h1>
+	<form action="process.php" method="POST">
+		<div>
+		<label> First name</label>
+		<input type="text">
+	</div>
+	<div>
+		<label>Middle name</label>
+		<input type="text">
+	</div>
+	<div>
+		<label>Last name</label>
+		<input type="text">
+	</div>
+	<div>
+		<label>Register number</label>
+		<input type="text">
+	</div>
+	<div>
+		<label>Email id</label>
+		<input type="text">
+	</div>
+	<div>
+		<label>Password</label>
+		<input type="Password">
+	</div>
+	<div>
+		<label>Date of birth</label>
+		<input type="date">
+	</div>
+	<div>
+		<label>Gender</label>
+		<select name="Gender">
+		<option value="male">Male</option>
+		<option value="female">Female</option>
+	</select>
+</div>
+<div>
+	<input type="checkbox"> I agree to the terms and conditions
+</div>
+<div>
+	<input type="submit" name="submit"
+	value="Submit">
+	<input type="reset" name="reset" value="Reset">
+</div>
+</form>
+
+<body style=
+	"font size:16px;
+	font-weight: normal;
+	text-align: center;
+	line-height:15m;
+	border-right:5px black solid;
+	border-left:5px black solid;
+	border-top:5px black solid;
+	border-bottom:5px black solid;"
+
+
+</body style>
+</body>
+</div>
+
+
+</body>
+</html>
